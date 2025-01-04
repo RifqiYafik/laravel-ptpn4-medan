@@ -17,7 +17,7 @@ return new class extends Migration
             $table->integer('id_siswa');
             $table->string('tmpt_lahir');
             $table->date('tgl_lahir');
-            $table->enum('jenis_kelamin',['l','p']);
+            $table->enum('jenis_kelamin', ['l', 'p']);
             $table->string('alamat');
             $table->integer('sekolah_id');
             $table->integer('penempatan_id');
